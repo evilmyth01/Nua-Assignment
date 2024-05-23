@@ -35,3 +35,14 @@ Password: admin
 ### Additional Information
 Make sure you have Node.js and npm installed on your machine.
 The project is configured to use standard configurations for ESLint and other necessary tools.
+
+## Images 
+
+### Login Page
+<img width="470" alt="image" src="https://github.com/evilmyth01/Nua-Assignment/assets/92376077/488b8633-b300-4edc-9a71-a4cbb16758f9">
+
+### Dashboard
+<img width="941" alt="image" src="https://github.com/evilmyth01/Nua-Assignment/assets/92376077/c91d1603-f16a-451a-bca5-d58c2e9b0bc7">
+
+
+
