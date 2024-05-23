@@ -1,8 +1,37 @@
-# React + Vite
+# Nua Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
 
-Currently, two official plugins are available:
+This repository contains the frontend assignment for Nua. Follow the steps below to set up and run the project on your local machine.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Steps to Run the Code Locally
+
+### 1. Clone the Repository
+First, you need to clone the repository to your local machine. Use the following command:
+
+git clone https://github.com/evilmyth01/Nua-Assignment.git
+
+### 2. Navigate to the Project Directory
+Change directory to the cloned repository. Use the following command:
+
+cd Nua-Assignment
+
+### 3. Install Dependencies
+Install the required dependencies using npm. Note that this might take some time:
+
+npm install
+
+### 4. Run the Development Server
+Start the development server using the following command:
+
+npm run dev
+
+### 5. Login Credentials
+To access the dashboard, use the following credentials:
+
+Username: admin
+Password: admin
+
+### Additional Information
+Make sure you have Node.js and npm installed on your machine.
+The project is configured to use standard configurations for ESLint and other necessary tools.
