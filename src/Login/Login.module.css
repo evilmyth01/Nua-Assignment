@@ -1,0 +1,103 @@
+/* .outerDiv{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid sienna;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img{
+    display: inline-block;
+   height: 200px;
+   width: 200px;
+   margin-left: 100px;
+   margin-top: 200px;
+
+} */
+
+/* .container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    gap: 0; 
+  }
+  
+  .img {
+    flex: 1; 
+    max-width: 50%; 
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    padding: 0; 
+    margin: 0; 
+  }
+  
+  .img img {
+    max-width: 270px;
+    max-height: 450px;
+    object-fit: cover; 
+    display: block; 
+  }
+  
+  .outerDiv {
+    flex: 1; 
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    padding: 0; 
+    margin: 0; 
+    */
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh; /* Full viewport height */
+        text-align: center; /* Center text alignment */
+       
+      }
+      
+      .heading {
+        margin-bottom: 20px; /* Space between heading and the container */
+        font-size: 2rem; /* Adjust as necessary */
+        color: #2ab89c;
+        
+      }
+      
+      .container {
+        display: flex;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        width: 100%; /* Full width */
+        max-width: 1200px; /* Maximum width */
+      }
+      
+      .img {
+        flex: 1; /* Take up equal space */
+        max-width: 50%; /* Adjust as necessary */
+        display: flex;
+        justify-content: flex-end; /* Align to the right edge */
+        align-items: center;
+        padding: 0; /* Remove padding */
+        margin: 0; /* Remove margin */
+      }
+      
+      .img img {
+        max-width: 300px;
+        max-height: 300px;
+        object-fit: cover; /* Ensure the image covers the div nicely */
+        display: block; /* Ensure no extra space */
+      }
+      
+      .outerDiv {
+        flex: 1; /* Take up equal space */
+        display: flex;
+        justify-content: flex-start; /* Align to the left edge */
+        align-items: center;
+        padding: 0; /* Remove padding */
+        margin: 0; /* Remove margin */
+      }
